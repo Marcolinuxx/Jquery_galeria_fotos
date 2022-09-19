@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de fotos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Galeria de fotos</h1>
+        <button type="button"> Adicionar nova imagem +</button>
+    </header>
+    <form>
+        <h2>Inserir nova imagem</h2>
+        <input type="url" id="endereco-imagem-nova" required placeholder="url da imagem " />
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="botao-cancelar">Cancelar</button>
+    </form>
+
+    <ul>
+        <li>
+            <img src="./Fotos - Aula JQUERY/Meninos_parque.jpg" alt="crianças no parque" />
+        <div class="overlay-imagem-link">
+            <a href="./Fotos - Aula JQUERY/Meninos_parque.jpg" target="_blank" title="Ver imagem em tamanho real" >
+                Ver imagem em Tamanho real
+            </a>
+        </div>
+        </li>
+
+        <li>
+            <img src="./Fotos - Aula JQUERY/Parque.jpg" alt="pessoas no parque" />     
+        <div class="overlay-imagem-link">
+            <a href="./Fotos - Aula JQUERY/Parque.jpg" target="_blank" title="Ver imagem em tamanho real" >
+                Ver imagem em Tamanho real
+            </a>
+        </div>
+        </li>
+
+        <li>
+            <img src="./Fotos - Aula JQUERY/Capuccinos.jpg" alt="dois copos de capuccinos" />
+        <div class="overlay-imagem-link">
+            <a href="./Fotos - Aula JQUERY/Capuccinos.jpg" target="_blank" title="Ver imagem em tamanho real" >
+                Ver imagem em Tamanho real
+            </a>
+        </div>
+        </li>
+
+        <li>
+            <img src="./Fotos - Aula JQUERY/Manu.jpg" alt="Menina sorrindo" /> 
+        <div class="overlay-imagem-link">
+            <a href="./Fotos - Aula JQUERY/Manu.jpg" target="_blank" title="Ver imagem em tamanho real" >
+                Ver imagem em Tamanho real
+            </a>
+        </div>
+        </li>
+
+        <li>
+            <img src="./Fotos - Aula JQUERY/Tutu.jpg" alt="menino com cabelo pintado de vermelho" />
+        <div class="overlay-imagem-link">
+            <a href="./Fotos - Aula JQUERY/Tutu.jpg" target="_blank" title="Ver imagem em tamanho real" >
+                Ver imagem em Tamanho real
+            </a>
+        </div>
+        </li>
+
+        <li>
+            <img src="./Fotos - Aula JQUERY/Fabi&Vick.jpg" alt="meninas sorrindo" />
+        <div class="overlay-imagem-link">
+            <a href="./Fotos - Aula JQUERY/Fabi&Vick.jpg" target="_blank" title="Ver imagem em tamanho real" >
+                Ver imagem em Tamanho real
+            </a>
+        </div>
+        </li>
+
+        <li>
+            <img src="./Fotos - Aula JQUERY/Vitor&Fabi.jpg" alt="casal de namorados sorrindo" />
+        <div class="overlay-imagem-link">
+            <a href="./Fotos - Aula JQUERY/Vitor&Fabi.jpg" target="_blank" title="Ver imagem em tamanho real" >
+                Ver imagem em Tamanho real
+            </a>
+        </div>
+        </li>
+
+        <li>
+            <img src="./Fotos - Aula JQUERY/Vick.jpg" alt="Menina sorrindo" />
+        <div class="overlay-imagem-link">
+            <a href="./Fotos - Aula JQUERY/Vick.jpg" target="_blank" title="Ver imagem em tamanho real" >
+                Ver imagem em Tamanho real
+            </a>
+        </div>
+        </li>
+    </ul>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

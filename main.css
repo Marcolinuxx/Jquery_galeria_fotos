@@ -1,0 +1,95 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+}
+
+body {
+    background-color: rgb(240, 234, 179);
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: rgb(138, 81, 138);
+    padding: 16px 0;
+    color: white;
+    display: flex;
+    border-bottom: 16px solid rgb(136, 43, 136);
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+form{
+    background-color:rgb(111, 106, 136);
+    padding: 20px 0;
+    text-align: center;
+    display:none;
+}
+
+form h2 {
+    margin-bottom: 16px;
+}
+
+input, button {
+    padding: 8px;
+}
+
+button {
+    background-color: rgb(2, 126, 2);
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+}
+
+#botao-cancelar {
+    background-color: red;
+}
+
+ul {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+ul li {
+    max-width: 25%;
+    list-style: none;
+    max-height: 400px;
+    position: relative;
+    overflow-y: hidden;
+}
+
+ul li img {
+    width: 100%;
+    padding: 5px;
+    border: 3px solid rgb(206, 101, 101);
+}
+
+.overlay-imagem-link {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position:absolute;
+    width: 100%;
+    bottom: 0;
+    left:0;
+    opacity: 0;
+    transition: all ease .5s;
+    border-bottom: solid rgb(206, 101, 101);
+}
+
+.overlay-imagem-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li:hover .overlay-imagem-link {
+    opacity: 1;
+}
